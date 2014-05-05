@@ -16,6 +16,6 @@ namespace PollBooth.Domain.Models
         [Required]
         public string Text { get; set; }
 
-        public List<IssueChoice> IssueChoices { get; set; } 
+        public List<IssueChoice> IssueChoices { get; set; }
     }
 }

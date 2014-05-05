@@ -10,6 +10,8 @@ namespace PollBooth.Domain.Models
         [Required]
         public int BallotId { get; set; }
 
+        public Ballot Ballot { get; set; }
+
         public List<Vote> Votes { get; set; }
     }
 }
